@@ -1,12 +1,13 @@
 [ All the images downloaded from FreePik.com ]
 
-WebSite Designed By- Md Sahadat Husain
+WebSite Designed By- Jay Borad
+with help of using template -Md Sahadat Husain
 ---------------------------------------
 
 For Any Query:
 ------------------
-Email: cse.devsahadat@gmail.com
-website: https://devsahadat.com
-facebook: https://facebook.com/developersahadat
-instagram: https://instagram.com/devsahadat
-mobile: +8801738309749 (whats app)
+Email: 
+website: https://jbond.me
+facebook: 
+instagram: 
+mobile:
