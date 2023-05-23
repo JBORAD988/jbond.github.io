@@ -846,6 +846,11 @@ footer ul li a:hover {
         right: 3%;
     }
 
+    .header_right {
+        flex: 1;
+        margin-bottom: 10%;
+    }
+
     .header_right .text-1 {
         font-size: 1rem;
     }
