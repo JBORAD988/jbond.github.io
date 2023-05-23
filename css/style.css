@@ -100,8 +100,6 @@ img {
 }
 
 
-
-
 .btn {
     display: inline-block;
     background-color: var(--primary);
@@ -848,7 +846,7 @@ footer ul li a:hover {
 
     .header_right {
         flex: 1;
-        margin-bottom: 10%;
+        margin-bottom: 12%;
     }
 
     .header_right .text-1 {
