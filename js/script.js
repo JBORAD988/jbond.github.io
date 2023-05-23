@@ -54,3 +54,44 @@ closeBtn.addEventListener('click', closeNav);
 window.addEventListener('scroll', () => {
     document.querySelector('nav').classList.toggle('window-scroll', window.scrollY>100);
 })
+
+
+//change title
+
+//change title on focus
+// let alertShow = false;
+// let docTitle = document.title;
+// window.addEventListener("blur", () => {
+//     document.title = "Hey! Come back :( ";
+// });
+// window.addEventListener("focus", () => {
+//     // document.title = docTitle;
+//     setInterval(() => {
+//         document.title = alertShow ? "Hey I'm Jay" : 'Welcome! to my portfolio';
+//
+//         alertShow = !alertShow;
+//     }, 1000);
+//
+// });
+
+
+//improved code for dynamic title
+let docTitle = document.title;
+let alertShow = false;
+
+window.addEventListener("blur", () => {
+    document.title = "Hey! See You Soon :(";
+});
+
+window.addEventListener("focus", () => {
+    document.title = docTitle;
+    clearInterval(intervalId);
+});
+
+let intervalId = setInterval(() => {
+    if (document.hasFocus()) {
+        document.title = alertShow ? "JBond's Personal Portfolio" : "If you want to hire me, contact me!";
+        alertShow = !alertShow;
+    }
+}, 4000);
+
