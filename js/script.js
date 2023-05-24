@@ -16,7 +16,7 @@ let intervalId = setInterval(() => {
         document.title = alertShow ? "JBond's Personal Portfolio" : "If you want to hire me, contact me!";
         alertShow = !alertShow;
     }
-}, 4000);
+}, 3600);
 
 
 
