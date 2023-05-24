@@ -464,7 +464,7 @@ header::before {
 .bar .progress-line.java span {
     width: 60%;
 }
-.bar .progress-line.ui span {
+.bar .progress-line.design span {
     width: 95%;
 }
 
@@ -532,7 +532,7 @@ header::before {
     content: "60%";
 }
 
-.progress-line.ui span::after {
+.progress-line.design span::after {
     content: "95%";
 }
 
