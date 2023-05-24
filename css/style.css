@@ -504,10 +504,6 @@ header::before {
     }
 }
 
-.progress-line.ui span::after {
-    content: "95%";
-}
-
 .progress-line.html span::after {
     content: "90%";
 }
@@ -534,6 +530,10 @@ header::before {
 
 .progress-line.java span::after {
     content: "60%";
+}
+
+.progress-line.ui span::after {
+    content: "95%";
 }
 
 /* =======PORTFOLIO======= */
