@@ -936,7 +936,8 @@ footer ul li a:hover {
     transition-duration: 200ms;
     transition-timing-function: ease-out;
     animation: cursorAnim  .5s infinite alternate;
-    z-index: 9999;
+    z-index: 999;
+
 }
 
 
