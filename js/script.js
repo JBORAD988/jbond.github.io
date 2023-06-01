@@ -99,3 +99,15 @@ document.addEventListener('click', () => {
     }, 500)
 })
 
+
+
+// download cv function
+
+<script>
+function downloadCV() {
+  var link = document.createElement('a');
+  link.href = 'http://jbond.me/JayBoradCV.pdf'; // Replace with the actual URL of your resume file
+  link.download = 'jbondCV.pdf'; // Replace with the desired file name
+  link.click();
+}
+</script>
