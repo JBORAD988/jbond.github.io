@@ -106,6 +106,6 @@ document.addEventListener('click', () => {
 function downloadCV() {
   var link = document.createElement('a');
   link.href = 'JayBoradCV.pdf'; // Replace with the actual URL of your resume file
-  link.download = 'jbondCV.pdf'; // Replace with the desired file name
+  link.download = 'jayBorad_CV.pdf'; // Replace with the desired file name
   link.click();
 }
