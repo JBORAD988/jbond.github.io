@@ -936,7 +936,7 @@ footer ul li a:hover {
     transition-duration: 200ms;
     transition-timing-function: ease-out;
     animation: cursorAnim  .5s infinite alternate;
-    z-index: 9999;
+    z-index: 1299;
 }
 
 
@@ -991,3 +991,39 @@ footer ul li a:hover {
         opacity: 0;
     }
 }
+
+
+/* Entry Animation of all elements*/
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden{
+        transition: none;
+    }
+}
+
+
+/* load effect */
+
+#preffect{
+    background: #111111 url(image/loadPulse.gif) no-repeat center center;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1300;
+    top: 0;
+    right: 0;
+}
+
+

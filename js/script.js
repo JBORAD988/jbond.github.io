@@ -109,3 +109,30 @@ function downloadCV() {
   link.download = 'jayBorad_CV.pdf'; // Replace with the desired file name
   link.click();
 }
+
+//hidden class animation of entry
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry)=> {
+        console.log(entry)
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show')
+        }
+
+    });
+});
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
+
+
+// load animation
+
+var loader = document.getElementById("preffect");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+
+})
