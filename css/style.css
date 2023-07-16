@@ -1016,12 +1016,12 @@ footer ul li a:hover {
 /* load effect */
 
 #preffect{
-    background: #111111 url(image/loadPulse.gif) no-repeat center center;
+    background: #111111 url(/image/preffect.gif) no-repeat center center;
     background-size: 5%;
     height: 100vh;
     width: 100%;
     position: fixed;
-    z-index: 1300;
+    z-index: 9999;
     top: 0;
     right: 0;
 }

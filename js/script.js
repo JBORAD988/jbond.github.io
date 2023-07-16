@@ -130,9 +130,9 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 // load animation
 
-var loader = document.getElementById("preffect");
-
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-
-})
+// const loader = document.getElementById("preffect");
+//
+// window.addEventListener("load", function(){
+//     loader.style.display = "none";
+//
+// })
