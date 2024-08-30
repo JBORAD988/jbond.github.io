@@ -467,6 +467,16 @@ header::before {
 .bar .progress-line.design span {
     width: 95%;
 }
+.bar .progress-line.Node span {
+    width: 60%;
+}
+.bar .progress-line.React span {
+    width: 80%;
+}
+
+.bar .progress-line.Angular span {
+    width: 90%;
+}
 
 .progress-line span::before {
     position: absolute;
@@ -532,9 +542,19 @@ header::before {
     content: "60%";
 }
 
-.progress-line.design span::after {
-    content: "95%";
+.progress-line.Angular span::after {
+    content: "90%";
 }
+
+.progress-line.React span::after {
+    content: "80%";
+}
+
+.progress-line.Node span::after {
+    content: "60%";
+}
+
+
 
 /* =======PORTFOLIO======= */
 
