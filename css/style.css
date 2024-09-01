@@ -514,6 +514,10 @@ header::before {
     }
 }
 
+.progress-line.design span::after {
+    content: "90%";
+}
+
 .progress-line.html span::after {
     content: "90%";
 }
